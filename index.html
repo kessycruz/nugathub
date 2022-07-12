@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Kesiena  Cruz">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>NugatHub || Home</title>
+    <title>NugatHub || training</title>
     <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -48,9 +48,8 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex justify-content-center align-items-center pb-3">
       <div class="container position-relative text-center" data-aos="zoom-in" data-aos-delay="100">
-        <h2 class="display-4">Launch into tech.</h2><p></p><h1><span class="box"> Learn to code</span> </h1>
-        <!--<p> We deliver intensive <span class="text-decoration-underline"> 8 weeks virtual bootcamp</span> throughout the year.<br>--> 
-         <p> Our next bootcamp is scheduled to begin on <span class="text-decoration-underline"> 22nd of August, 2022.</span></p>
+        <h2 class="display-4">Launch into tech.</h2><p></p><h1><span class="box"> Learn to code <i class="fas fa-code"></i></span> </h1> 
+         <p class="px-2"> Our next bootcamp is scheduled to begin on <span class="text-decoration-underline"> 22nd of August, 2022.</span></p>
         <a href="http://wa.me/+2347034503455" class="get-started-btn icon_wp"><img src="images/whatsapp.png">Chat Us on WhatsApp</a>
       </div>
     </section>
@@ -69,9 +68,12 @@
         </div>
       
         <div><strong> NugatHub is an edutech company opening the opportunity of tech up to everyone. </strong><br>
-          We deliver intensive <span class="text-decoration-underline"> 8 weeks virtual bootcamp</span> throughout the year..Our bootcamp takes you from 0 to developer and launches you into a tech career.
-          Through our well-thought curriculum and project based structure, learners learn how to solve real world problems with today's cutting-edge development technologies. 
-           <p class="fst-italic">NugatHub's purpose is to give everyone a route into technology, and teach them the skills they need to leap into the industry.</p>
+          We deliver intensive <span class="text-decoration-underline"> 8 weeks virtual bootcamp</span> throughout the year..<br>
+          <ul class="disc">
+          <li>Our bootcamp takes you from 0 to developer and launches you into a tech career.</li>
+          <li>Through our well-thought curriculum and project based structure, learners learn how to solve real world problems with today's cutting-edge development technologies. </li>
+          </ul>
+          <p class="fst-italic">NugatHub's purpose is to give everyone a route into technology, and teach them the skills they need to leap into the industry.</p>
            <p> <strong>Our Mission<br> <i> to provide quality, cost-effective training designed to build technology leaders.</i></strong></p>
         </div>
       </div>
@@ -419,11 +421,6 @@
             <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
           </div>
           <p id="my-form-status"></p>
-          <!--<div class="my-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your message has been sent. Thank you!</div>
-          </div>-->
           <div class="text-center"><button type="submit">Send Message</button></div>
         </form>
 
@@ -462,13 +459,6 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.0/swiper-bundle.min.js" integrity="sha512-+oUge+PHyEv6R7xjWkZ9zeGWbRLIs24P6/2afAClEZi+kZ2vsK+Di4Ud9ON39uAbkkcCrewO3ayzk2765bbPpw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-     
-      <!-- <script src="vendor/purecounter/purecounter.js"></script>
-  <script src="vendor/aos/aos.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="vendor/email-form/validate.js"></script>-->
-
   <!-- Template Main JS File -->
   <script src="js/main.js"></script>
 
@@ -487,7 +477,7 @@
         }
       }).then(response => {
         if (response.ok) {
-          status.innerHTML = "Thanks for your submission!";
+          status.innerHTML = "Thank you for contacting Us!";
           form.reset()
         } else {
           response.json().then(data => {

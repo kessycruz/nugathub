@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 ul.disc li {
   display: list-item;
   list-style: none;
-  padding: 0 0 0 3rem;
+  padding: 0 0 0 2rem;
   position: relative;
 }
 
@@ -414,7 +414,7 @@ dd {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 100px 0;
   overflow: hidden;
 }
 .section-title {
