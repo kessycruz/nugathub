@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 ul.disc li {
   display: list-item;
   list-style: none;
-  padding: 0 0 0 2rem;
+  padding: 0 0 0 1.5rem;
   position: relative;
 }
 
@@ -55,7 +55,7 @@ ul.disc li::before {
   border-radius: 50%;
   background: var(--primary-color);
   position: absolute;
-  left: -17px;
+  left: -15px;
   top: 11px;
   vertical-align: middle;
 }
@@ -216,6 +216,9 @@ dd {
     top:50%;
     justify-content: center;
     align-items: center;
+  }
+  section img{
+    padding-top: 30px;
   }
 }
 
@@ -448,6 +451,7 @@ section {
   font-family: "Poppins", sans-serif;
   color: #37423b;
 }
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
