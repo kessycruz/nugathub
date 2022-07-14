@@ -181,7 +181,7 @@ dd {
 * Get Startet Button 
 */
 .get-started-btn {
-  margin-left: 22px;
+  margin-left: 15px;
   background: var(--primary-color);
   color: #fff;
   border-radius: 50px;
@@ -198,8 +198,7 @@ dd {
 .icon_wp img{
   height: 35px;
   width: 40px;
-  padding-right: 5px;
-
+  padding-right: 3px;
 }
 
 @media (max-width: 768px) {
@@ -211,14 +210,18 @@ dd {
     margin: 0 10px 0 0;
     padding: 6px 18px;
   }
-  
+  .icon_wp img{
+    height: 35px;
+    width: 40px;
+    padding-right: 3px; 
+  }  
   section .hero{
     top:50%;
     justify-content: center;
     align-items: center;
   }
   section img{
-    padding-top: 30px;
+    padding-top: ;
   }
 }
 
@@ -660,7 +663,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .contact .info h4 {
-  padding: 0 0 0 60px;
+  padding: 0 0 0 80px;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
